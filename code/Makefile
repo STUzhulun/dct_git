@@ -11,8 +11,8 @@ all: $(OBJS)
 	$(CC) $(FLAGS) -c $*.c $(INCLUDES)
   
 clean:
-	-rm -rf *.o
-	-rm exe_bin
+	-rm -rf *.o exe_bin
+
 
 
 
