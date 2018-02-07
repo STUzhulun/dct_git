@@ -1,7 +1,7 @@
 CC = gcc
 FLAGS = -W -O2 -g
 INCLUDES = -lm
-OBJS = main.o matrix.o 
+OBJS = main.o matrix.o dct.o 
 .PHONY: all clean
 
 all: $(OBJS)
