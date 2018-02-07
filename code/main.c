@@ -1,5 +1,5 @@
 #include "matrix.h"
-#define N 8
+
 
 int  main(int argc ,char* argv[]) 
 {
@@ -52,12 +52,12 @@ int  main(int argc ,char* argv[])
       exit(1);
     }
   }
-  
-  
+  dct(x,res);
+  /*
   multiply(s[0], x, mid);
   multiply(s[1], mid, res);
   multiply(s[2], res, mid);
-  multiply(s[3], mid, res);
+  multiply(s[3], mid, res);*/
   printf("Its DCT trasnsform X[k] is followed...\n");
   showMat(res);
   return 0;
