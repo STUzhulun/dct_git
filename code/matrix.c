@@ -47,7 +47,7 @@ void showMat(p_mat pointer)
   int i, j;
   for(i = 0; i < pointer->row; i++){
     for(j = 0; j < pointer->col; j++){
-      printf("%-1.3f\t", *(pointer->value + i * pointer->col + j));
+      printf("%-1.4f\t", *(pointer->value + i * pointer->col + j));
     }
     printf("\n");
   }
